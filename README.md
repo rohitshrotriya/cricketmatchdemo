@@ -1,4 +1,14 @@
 # cricketmatchdemo
+## Project Login
+UserName:rohitadmin@yopmail.com
+password:password
+
+##Project Setup
+import the sql file provided in the root project folder testcriclaravel.sql in the database mysql.
+create a .env file renaming .env.example and set the following :-
+APP_KEY=base64:55RE8WME7T/yGjfngQ6gr+qRoIuJrOYxY3edKAz9mgA=
+
+also update database details and other parameters as required. 
 
 ## About Laravel 5.8
 
@@ -137,3 +147,4 @@ Please use only integral points per match in tournament creation form. And follo
 
 Note: For semi finals top four teams as per points table are chosen so that first team will play with 4th team and second semi final will be played by 2nd and 3rd team. No tie or Run rate like duckward lewis system currently implemented as this is out of scope for the problem statment and the time duration given.
  
+
